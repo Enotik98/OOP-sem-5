@@ -4,9 +4,10 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class SaladTest {
-    ArrayList<Vegetable> vegetables = new ArrayList<>();
+    List<Vegetable> vegetables = new ArrayList<>();
     Salad salad = new Salad();
 
     @Before
@@ -29,7 +30,7 @@ public class SaladTest {
             Assert.assertFalse(vegetables.get(i).getCalories()>vegetables.get(i+1).getCalories());
             Assert.assertEquals(salad.calculateCalories(),190);
         }
-        ArrayList<Vegetable> result=salad.findByRange(10,60);
+        List<Vegetable> result=salad.findByRange(10,60);
         for(int i=0;i<result.size();i++){
             Assert.assertTrue(result.get(i).getCalories()<60&&result.get(i).getCalories()>10);
         }

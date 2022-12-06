@@ -19,9 +19,9 @@ public class Main {
 
         salad.setVegetables(vegetables);
 
-        salad.showVegetables();
+
         salad.sortVegetables();
-        salad.showVegetables();
+
         salad.findByRange(10,80);
         System.out.println(salad.calculateCalories());
 

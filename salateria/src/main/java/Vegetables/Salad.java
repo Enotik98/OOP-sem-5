@@ -1,19 +1,20 @@
 package Vegetables;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Salad {
-    private ArrayList<Vegetable> vegetables;
+    private List<Vegetable> vegetables;
 
     public Salad() {
         this.vegetables = new ArrayList<>();
     }
 
-    public void setVegetables(ArrayList<Vegetable> vegetables) {
+    public void setVegetables(List<Vegetable> vegetables) {
         this.vegetables = vegetables;
     }
 
-    public ArrayList<Vegetable> getVegetables() {
+    public List<Vegetable> getVegetables() {
         return vegetables;
     }
 
@@ -45,30 +46,18 @@ public class Salad {
         }
     }
 
-    public void showVegetables() {
-        for (Vegetable vegetable : vegetables) {
-            System.out.println(vegetable.toString());
-        }
-        System.out.println();
-    }
 
-    public void showVegetables(ArrayList<Vegetable> vegetables) {
-        for (Vegetable vegetable : vegetables) {
-            System.out.println(vegetable.toString());
-        }
-        System.out.println();
-    }
 
-    public ArrayList<Vegetable> findByRange(int min, int max) {
-        if (min >= max) return null;
+    public List<Vegetable> findByRange(int min, int max) {
+        //
+        if (min >= max) throw new IllegalStateException();
 
-        ArrayList<Vegetable> result = new ArrayList<>();
+        List<Vegetable> result = new ArrayList<>();
         for (Vegetable vegetable : vegetables) {
             if (vegetable.getCalories() <= max && vegetable.getCalories() >= min) {
                 result.add(vegetable);
             }
         }
-        showVegetables(result);
         return result;
     }
 

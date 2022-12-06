@@ -8,8 +8,8 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class TreeDiagonalMatrix {
-    private static final Logger log = Logger.getLogger(TreeDiagonalMatrix.class.getName());
+public class ThreeDiagonalMatrix {
+    private static final Logger log = Logger.getLogger(ThreeDiagonalMatrix.class.getName());
     //diagonal below main diagonal
     private List<Double> a;
     //main diagonal
@@ -19,7 +19,7 @@ public class TreeDiagonalMatrix {
     //right values of equations
     private List<Double> f;
 
-    public TreeDiagonalMatrix(List<Double> a, List<Double> c, List<Double> b, List<Double> f) {
+    public ThreeDiagonalMatrix(List<Double> a, List<Double> c, List<Double> b, List<Double> f) {
         this.a = a;
         this.c = c;
         this.b = b;
@@ -58,7 +58,7 @@ public class TreeDiagonalMatrix {
         this.f = f;
     }
 
-    public TreeDiagonalMatrix(File matrixFile){
+    public ThreeDiagonalMatrix(File matrixFile){
         a = new ArrayList<>();
         b = new ArrayList<>();
         c = new ArrayList<>();

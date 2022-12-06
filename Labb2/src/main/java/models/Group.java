@@ -1,2 +1,8 @@
-package models;public class Group {
+package models;
+
+
+public enum Group {
+    Antibiotics,
+    Sedative,
+    Vitamins
 }

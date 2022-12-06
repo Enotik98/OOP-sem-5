@@ -4,23 +4,23 @@
     <Drug>
         <Id>1111</Id>
         <Name>Boba</Name>
-        <Pharm>Aboba</Pharm>
+        <Pharm>Darnitsa</Pharm>
         <Group>Sedative</Group>
-        <Analogs>Biba</Analogs>
+        <Analogs>Bib</Analogs>
         <Version>
             <Type>Tablets</Type>
-            <Certificate>2021</Certificate>
+            <Certificate>2020</Certificate>
             <Package>plastic</Package>
-            <Dosage>2.0</Dosage>
+            <Dosage>3</Dosage>
         </Version>
     </Drug>
 
     <Drug>
         <Id>2222</Id>
-        <Name>Abobus</Name>
-        <Pharm>Farm</Pharm>
+        <Name>Aboba</Name>
+        <Pharm>Home</Pharm>
         <Group>Antibiotics</Group>
-        <Analogs>Bobus</Analogs>
+        <Analogs>Aboba</Analogs>
         <Version>
             <Type>Mixtures</Type>
             <Certificate>2019</Certificate>
@@ -30,16 +30,16 @@
     </Drug>
 
     <Drug>
-        <Id>33</Id>
-        <Name>Bob</Name>
-        <Pharm>BIBI</Pharm>
+        <Id>33333</Id>
+        <Name>Coca</Name>
+        <Pharm>Bbc</Pharm>
         <Group>Vitamins</Group>
-        <Analogs>Bib</Analogs>
+        <Analogs>None</Analogs>
         <Version>
             <Type>Ointment</Type>
             <Certificate>2025</Certificate>
             <Package>plastic</Package>
-            <Dosage>3.0</Dosage>
+            <Dosage>1.5</Dosage>
         </Version>
     </Drug>
 </prat:Medicine>

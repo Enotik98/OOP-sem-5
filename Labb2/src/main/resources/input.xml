@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prat:Medicine xmlns:prat="http://xqsm.com.ua/pratice7">
+    <!--1 or more repetitions:-->
+    <Drug>
+        <Id>1111</Id>
+        <Name>Boba</Name>
+        <Pharm>Darnitsa</Pharm>
+        <Group>Sedative</Group>
+        <Analogs>Bib</Analogs>
+        <Version>
+            <Type>Tablets</Type>
+            <Certificate>2020</Certificate>
+            <Package>plastic</Package>
+            <Dosage>3</Dosage>
+        </Version>
+    </Drug>
+
+    <Drug>
+        <Id>2222</Id>
+        <Name>Aboba</Name>
+        <Pharm>Home</Pharm>
+        <Group>Antibiotics</Group>
+        <Analogs>Aboba</Analogs>
+        <Version>
+            <Type>Mixtures</Type>
+            <Certificate>2019</Certificate>
+            <Package>tube</Package>
+            <Dosage>2.0</Dosage>
+        </Version>
+    </Drug>
+
+    <Drug>
+        <Id>33333</Id>
+        <Name>Coca</Name>
+        <Pharm>Bbc</Pharm>
+        <Group>Vitamins</Group>
+        <Analogs>None</Analogs>
+        <Version>
+            <Type>Ointment</Type>
+            <Certificate>2025</Certificate>
+            <Package>plastic</Package>
+            <Dosage>1.5</Dosage>
+        </Version>
+    </Drug>
+</prat:Medicine>

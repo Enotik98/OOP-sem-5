@@ -11,6 +11,8 @@
             </xsd:sequence>
         </xsd:complexType>
     </xsd:element>
+
+
     <xsd:complexType name="Drug">
         <xsd:sequence>
             <xsd:element name="Id" type="xsd:int"/>

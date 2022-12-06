@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Medicine>
     <Drug>
-        <Id>23973283</Id>
-        <Name>Pharmacetron</Name>
-        <Pharm>AgeNow</Pharm>
+        <Id>2222</Id>
+        <Name>Aboba</Name>
+        <Pharm>Home</Pharm>
         <Group>Antibiotics</Group>
-        <Analogs>Nimesil</Analogs>
+        <Analogs>Aboba</Analogs>
         <Version>
             <Type>Mixtures</Type>
             <Certificate>2019</Certificate>
             <Package>tube</Package>
-            <Dosage>5.0</Dosage>
+            <Dosage>2.0</Dosage>
         </Version>
     </Drug>
     <Drug>
@@ -18,25 +18,25 @@
         <Name>Boba</Name>
         <Pharm>Darnitsa</Pharm>
         <Group>Sedative</Group>
-        <Analogs>None</Analogs>
+        <Analogs>Bib</Analogs>
         <Version>
             <Type>Tablets</Type>
             <Certificate>2020</Certificate>
             <Package>plastic</Package>
-            <Dosage>1.5</Dosage>
+            <Dosage>3.0</Dosage>
         </Version>
     </Drug>
     <Drug>
-        <Id>1283726</Id>
-        <Name>Duak</Name>
-        <Pharm>ByeBye</Pharm>
+        <Id>33333</Id>
+        <Name>Coca</Name>
+        <Pharm>Bbc</Pharm>
         <Group>Vitamins</Group>
         <Analogs>None</Analogs>
         <Version>
             <Type>Ointment</Type>
             <Certificate>2025</Certificate>
             <Package>plastic</Package>
-            <Dosage>1.6</Dosage>
+            <Dosage>1.5</Dosage>
         </Version>
     </Drug>
 </Medicine>

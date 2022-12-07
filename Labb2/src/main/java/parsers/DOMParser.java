@@ -35,6 +35,7 @@ public class DOMParser extends ParserXML {
             builder = factory.newDocumentBuilder();
             doc = builder.parse(xmlPath);
         } catch (ParserConfigurationException | SAXException | IOException e) {
+            //
             System.out.println(e);
         }
 
